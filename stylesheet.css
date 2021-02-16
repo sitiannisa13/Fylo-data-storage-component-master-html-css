@@ -1,0 +1,124 @@
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	font-family: 'Raleway', sans-serif;
+	font-size:14px;
+	background-color:hsl(229, 57%, 11%);
+	background-image:url('bg-desktop.png');
+	background-repeat:no-repeat;
+	background-position:center bottom;
+	background-attachment:fixed;
+}
+.container{
+	width:70%;
+	display:flex;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:300px;
+}
+.content{
+	padding:50px;
+}
+.left{
+	border-top-right-radius:150px;
+	margin-right:40px;
+	padding-right:150px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	border-top-left-radius:10px;
+	background-color:hsl(228, 56%, 26%);
+}
+.left img{
+	margin-bottom:50px;
+}
+.list{
+	display:flex;
+}
+.list li{
+	list-style-type:none;
+	margin-right:20px;
+	padding:20px;
+	border-radius:10px;
+	background-color:hsl(229, 57%, 11%);
+	height:20px;
+}
+.right{
+	border-radius:10px;
+	background-color:hsl(228, 56%, 26%);
+	color:white;
+	height:60px;
+	position:relative;
+	top:95px;
+}
+.right h4{
+	font-weight:normal;
+	margin-bottom:20px;
+}
+.gigab{
+	margin-top:20px;
+}
+.gbleft{
+	float:left;
+}
+.gbright{
+	float:right;
+}
+.box{
+	background-color:white;
+	width:22%;
+	padding:15px;
+	border-radius:10px;
+	position:absolute;
+	top:-30px;
+	left:320px;
+}
+.triangle{
+	width: 0;
+	height: 0;
+	border-left: 25px solid white;
+	border-right: 25px solid transparent;
+	border-top: 50px solid transparent;
+	transform:rotate(180deg);
+	position:relative;
+	left:361px;
+	top:-30px;
+}
+.inside{
+	position:relative;
+	top:-60px;
+}
+.box p{
+	color:hsl(229, 7%, 55%);
+	font-size:12px;
+	position:relative;
+	top:-6px;
+}
+.bold{
+	font-weight:700;
+	font-size:30px;
+	color:black;
+}
+.meter{
+	border-radius:15px;
+	border:2px solid hsl(229, 57%, 11%);
+	background-color:hsl(229, 57%, 11%);
+	height:15px;
+	width:400px;
+}
+.metera{
+	background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+	width:330px;
+	height:14px;
+	border-radius:15px;
+}
+.circle{
+	height:12px;
+	width:12px;
+	border-radius:50%;
+	background-color:white;
+	position:relative;
+	top:1px;
+	left:316px;
+}
